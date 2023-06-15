@@ -5,12 +5,15 @@ interface InputProps {
   id: string;
   type: string;
   placeholder: string;
+  value?: string;
   customColor?: string;
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 class Input extends Component<InputProps> {
   render() {
-    const { label, id, type, placeholder, customColor } = this.props;
+    const { label, id, type, placeholder, value, customColor, onChange } =
+      this.props;
 
     const colorClass = customColor ? `text-custom-color` : "";
 
@@ -19,7 +22,7 @@ class Input extends Component<InputProps> {
         <label
           className={`block text-sm font-bold mb-2 ${colorClass}`}
           htmlFor={id}
-          style={customColor ? {color: customColor} : undefined}
+          style={customColor ? { color: customColor } : undefined}
         >
           {label}
         </label>
@@ -28,6 +31,8 @@ class Input extends Component<InputProps> {
           id={id}
           type={type}
           placeholder={placeholder}
+          value={value}
+          onChange={onChange}
         />
       </div>
     );
