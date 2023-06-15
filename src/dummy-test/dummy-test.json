@@ -1,0 +1,25 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "title": "Villa ABCD",
+            "image": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+            "description": "2 guest - 1 bedroom - kitchen - pool - wifi - backyard",
+            "price": "$32/night"
+        },
+        {
+            "id": 2,
+            "title": "Villa Madesu",
+            "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+            "description": "3 guest - 2 bedroom - kitchen - pool - wifi - backyard",
+            "price": "$52/night"
+        },
+        {
+            "id": 3,
+            "title": "Villa Kebagusan Dikit",
+            "image": "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+            "description": "6 guest - 4 bedroom - kitchen - pool - wifi - backyard",
+            "price": "$152/night"
+        }
+    ]
+}

@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors : {
+        "bnb-dark" : "#273461",
+        "bnb-salmon" : "#F15757",
+      }
+    },
   },
   plugins: [require("daisyui")],
 };

@@ -1,0 +1,35 @@
+{
+    "place": [
+      {
+        "img": "https://links.papareact.com/5j2",
+        "location": "Jakarta",
+        "distance": "45-minute drive"
+      },
+      {
+        "img": "https://links.papareact.com/1to",
+        "location": "Bogor",
+        "distance": "4.5-hour drive"
+      },
+      {
+        "img": "https://links.papareact.com/40m",
+        "location": "Bandung",
+        "distance": "4.5-hour drive"
+      },
+      {
+        "img": "https://links.papareact.com/msp",
+        "location": "Semarang",
+        "distance": "4-hour drive"
+      },
+      {
+        "img": "https://links.papareact.com/2k3",
+        "location": "Magelang",
+        "distance": "45-minute drive"
+      },
+      {
+        "img": "https://links.papareact.com/41m",
+        "location": "Surabaya",
+        "distance": "2-hour drive"
+      }
+    ]
+  }
+  
