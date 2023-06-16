@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import { list } from "../dummy-test/dummy-test.json";
