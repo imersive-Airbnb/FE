@@ -2,7 +2,6 @@ import { Component } from "react";
 import Input from "../../components/Input";
 import { withRouter } from "../../withRouter";
 import api from "../../services/api";
-import Swal from "sweetalert2";
 
 interface RegisterProps {
   navigate: any;
@@ -34,23 +33,11 @@ export class Register extends Component<RegisterProps, FormState> {
         .register(userData)
         .then((response) => {
           console.log(response.data);
-          Swal.fire({
-            icon: "success",
-            title: "Registration Successful",
-            text: "You have Successfully registered!",
-          }).then(() => {
-            this.props.navigate("/");
-          });
+          this.props.navigate("/");
         })
         .catch((error) => {
           console.error(error);
         });
-    } else {
-      Swal.fire({
-        icon: "error",
-        title: "Validation Error",
-        text: "Please fill in all fields.",
-      });
     }
   };
 
